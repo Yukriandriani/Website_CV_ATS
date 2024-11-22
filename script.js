@@ -30,13 +30,13 @@ document.getElementById("likeButton").addEventListener("click", function () {
     });
 });
 
-// Button Dislike: SweetAlert2 Pop-Up
-document.getElementById("dislikeButton").addEventListener("click", function () {
+document.getElementById("likeButton").addEventListener("click", function () {
+    console.log("Like button clicked!");
     Swal.fire({
-        title: "Oh Tidak!",
-        text: "Kami akan berusaha memperbaiki pengalaman Anda. Mohon beri masukan Anda! 😔",
-        icon: "error",
-        confirmButtonText: "Baiklah",
+        title: "Terima Kasih!",
+        text: "Senang mendengar bahwa Anda menyukai website ini 😊",
+        icon: "success",
+        confirmButtonText: "Sama-sama!",
     });
 });
 
